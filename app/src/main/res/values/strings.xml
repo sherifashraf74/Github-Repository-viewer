@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GithubReposApp</string>
+    <string name="repository_screen_avatar_image_description">repository avatar</string>
+    <string name="repository_screen_repoItem_star_icon_description">Star Icon</string>
+    <string name="bach_button_description">back</string>
+    <string name="topbar_details_screen">Details</string>
+    <string name="back_btn">Back</string>
+    <string name="detailsscreen_repository_description_txt">Shared repository for open-sourced projects from the Google AI language team</string>
+    <string name="detailscreen_show_issues_btn">Show Issues</string>
+    <string name="detailsscreen_stars_icon">1525</string>
+    <string name="detailsscreen_language_icon_txt">Python</string>
+    <string name="detailsscreen_branches_icon_txt">347</string>
+</resources>
