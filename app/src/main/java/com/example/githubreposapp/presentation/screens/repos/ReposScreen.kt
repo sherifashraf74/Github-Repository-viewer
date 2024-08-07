@@ -1,4 +1,4 @@
-package com.example.githubreposapp.presentation.screens
+package com.example.githubreposapp.presentation.screens.repos
 
 import androidx.compose.runtime.Composable
 

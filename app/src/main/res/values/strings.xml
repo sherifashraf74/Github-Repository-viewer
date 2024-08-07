@@ -10,4 +10,8 @@
     <string name="detailsscreen_stars_icon">1525</string>
     <string name="detailsscreen_language_icon_txt">Python</string>
     <string name="detailsscreen_branches_icon_txt">347</string>
+    <string name="details_app_bar_back_arrow_description">backArrow</string>
+    <string name="details_screen_title">Details</string>
+    <string name="fixed_issues_icon">Fixed Issues Icon</string>
+    <string name="issues_screen_created_at">Created At:</string>
 </resources>

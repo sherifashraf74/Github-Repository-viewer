@@ -1,9 +1,7 @@
-package com.example.githubreposapp.presentation.screens
+package com.example.githubreposapp.presentation.screens.details
 
-import android.graphics.drawable.Icon
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size

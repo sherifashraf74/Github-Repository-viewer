@@ -1,4 +1,4 @@
-package com.example.githubreposapp.presentation.screens
+package com.example.githubreposapp.presentation.screens.details
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
@@ -10,7 +10,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -18,7 +17,7 @@ import androidx.compose.ui.unit.sp
 import com.example.githubreposapp.R
 
 @Composable
-fun FirstIconWithLanguage(@DrawableRes firstIcon:Int, language:String, modifier: Modifier=Modifier) {
+fun FirstIconWithLanguage(@DrawableRes firstIcon:Int, language:String) {
     Column(horizontalAlignment = Alignment.CenterHorizontally
         ,modifier = Modifier)
     {

@@ -2,13 +2,12 @@ package com.example.githubreposapp.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
-val md_theme_light_primary = Color(0xFF825500)
+val md_theme_light_primary = Color(0xFFF1F1F0)
 val md_theme_light_onPrimary = Color(0xFF18277C)
-val md_theme_light_primaryContainer = Color(0xFF1B116B)
-val md_theme_light_onPrimaryContainer = Color(0xFF291800)
+val md_theme_light_onPrimaryContainer = Color(0xFF333232)
 val md_theme_light_secondary = Color(0xFF6F5B40)
 val md_theme_light_onSecondary = Color(0xFFFFFFFF)
-val md_theme_light_secondaryContainer = Color(0xFFFBDEBC)
+val md_theme_light_secondaryContainer = Color(0xFFE4E4E4)
 val md_theme_light_onSecondaryContainer = Color(0xFF271904)
 val md_theme_light_tertiary = Color(0xFF51643F)
 val md_theme_light_onTertiary = Color(0xFFFFFFFF)
@@ -52,6 +51,7 @@ val md_theme_dark_onErrorContainer = Color(0xFFFFDAD6)
 val md_theme_dark_background = Color(0xFF1F1B16)
 val md_theme_dark_onBackground = Color(0xFFEAE1D9)
 val md_theme_dark_surface = Color(0xFF1F1B16)
+
 val md_theme_dark_onSurface = Color(0xFFEAE1D9)
 val md_theme_dark_surfaceVariant = Color(0xFF4F4539)
 val md_theme_dark_onSurfaceVariant = Color(0xFFD3C4B4)
