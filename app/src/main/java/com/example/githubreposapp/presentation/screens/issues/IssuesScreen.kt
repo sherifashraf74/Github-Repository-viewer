@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -38,8 +39,8 @@ fun IssuesScreen(modifier: Modifier = Modifier,
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(ite)
-                    .padding(start = 16.dp, top = 8.dp , end = 16.dp),
-                verticalArrangement = Arrangement.spacedBy(10.dp)
+                , contentPadding = PaddingValues(16.dp,8.dp,16.dp,8.dp)
+                ,verticalArrangement = Arrangement.spacedBy(10.dp)
             )
             {
                 items(lazyColumnData()) {
